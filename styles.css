@@ -16,6 +16,16 @@ html {
   font-size: 10px;
 }
 
+/*
+  =====================================
+  DEBUG
+  =====================================
+*/
+
+* {
+  outline: 1px solid red;
+}
+
 
 /*
   =====================================
@@ -63,8 +73,12 @@ body {
   color: #d0ac66;
 }
 
-.container {
-  position: relative;
-  top: 250px;
+section {
+  max-width: 960px;
   margin: 0 auto;
+}
+
+section.polkadots {
+  background-image: url(./assets/images/polkadots.png);
+  height: 250px;
 }
