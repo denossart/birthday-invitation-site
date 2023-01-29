@@ -33,11 +33,11 @@ h1 {
   text-transform: uppercase;
 }
 
-.coffee,
-.date {
-  font-size: 4rem;
+.coffee {
+  font-size: 6rem;
 }
 
+.date,
 .time {
   font-size: 4rem;
 }
@@ -102,11 +102,11 @@ span {
 
   .coffee,
   .date {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .time {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 */
