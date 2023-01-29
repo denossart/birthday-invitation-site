@@ -26,20 +26,20 @@
 
 h1,
 h2 {
-  font-size: 16rem;
+  font-size: 14rem;
 }
 
 h1 {
   text-transform: uppercase;
 }
 
-.coffee {
-  font-size: 12rem;
+.coffee,
+.date {
+  font-size: 6rem;
 }
 
-.date,
 .time {
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 h1,
@@ -84,8 +84,8 @@ span {
   justify-content: center;
 }
 
-.coffee {
-  margin-bottom: 20px;
+.time {
+  margin-top: 50px;
 }
 
 
