@@ -19,9 +19,11 @@ html {
    DEBUGGING
    ==================================== */
 
+/*
 * {
   outline: 1px solid red;
 }
+*/
 
 
 /* ====================================
@@ -29,18 +31,19 @@ html {
    ==================================== */
 
 * {
-  font-family: sans-serif;
+  font-family: Roboto;
 }
 
 h1,
 h2,
-h3 {
-  font-weight: 200;
+h3,
+p {
+  font-weight: 100;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 4.8rem;
+  font-size: 8.0rem;
 }
 
 h2 {
@@ -48,7 +51,8 @@ h2 {
 }
 
 h3 {
-  font-size: 6.4rem;
+  font-family: "Bad Script";
+  font-size: 14.0rem;
 }
 
 p {
@@ -85,6 +89,10 @@ body {
 .page-container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.polkadots-bottom {
+  transform: rotate(180deg);
 }
 
 
