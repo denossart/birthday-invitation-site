@@ -95,12 +95,18 @@ span {
 
 /*
 @media (min-width: 1200px) {
-  h1 {
-    word-spacing: 1.5rem;
-    letter-spacing: 0.5rem;
-  }
+  h1,
   h2 {
-    letter-spacing: 1.5rem;
+    font-size: 10rem;
+  }
+
+  .coffee,
+  .date {
+    font-size: 4rem;
+  }
+
+  .time {
+    font-size: 4rem;
   }
 }
 */
