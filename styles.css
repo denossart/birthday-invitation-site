@@ -81,6 +81,11 @@ body {
   justify-content: center;
 }
 
+.page-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 
 
 
