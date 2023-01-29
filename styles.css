@@ -1,16 +1,10 @@
 /* ====================================
-   BASIC RESET
+   RESETS
    ==================================== */
 
-*,
-*:before,
-*:after {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-html {
   font-size: 10px;
 }
 
@@ -19,34 +13,44 @@ html {
    DEBUGGING
    ==================================== */
 
-
+/*
 * {
   outline: 1px solid red;
 }
-
+*/
 
 /* ====================================
    FONTS
    ==================================== */
 
-* {
-  font-family: Roboto;
+h1,
+h2 {
+  font-size: 6.4rem;
 }
 
 h1 {
   text-transform: uppercase;
+}
+
+.coffee {
+  font-size: 2.4rem;
+}
+
+.date,
+.time {
+  font-size: 2rem;
+}
+
+h1,
+p,
+span {
+  font-family: Roboto;
   font-weight: 100;
-  font-size: 6.0rem;
 }
 
 h2 {
   font-family: "Bad Script";
-  font-weight: 300;
-  font-size: 8rem;
-}
-
-p {
-  font-size: 2rem;
+  font-weight: 100;
 }
 
 
@@ -55,30 +59,29 @@ p {
    ==================================== */
 
 body {
-  background: #3c474d;
+  background-color: #3c474d;
   color: #d0ac66;
 }
 
 
 /* ====================================
    LAYOUT
-   ===================================== */
+   ==================================== */
 
-* {
+h1,
+h2,
+p,
+span {
   text-align: center;
 }
 
 .page-container {
   height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.page-container {
-  max-width: 960px;
-  margin: 0 auto;
+  justify-content: space-between
 }
 
 .polkadots-bottom {
@@ -86,32 +89,31 @@ body {
 }
 
 .coffee {
-  margin-bottom: 10px;
-}
-
-.place {
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
+/* ====================================
+   RESPONSIVE DESIGN
+   ==================================== */
 
+@media (min-width: 600px) {
+  h1 {
+    word-spacing: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+  h2 {
+    letter-spacing: 1.5rem;
+  }
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 960px) {
+  h1 {
+    word-spacing: 3rem;
+    letter-spacing: 0.5rem;
+  }
+  h2 {
+    letter-spacing: 3rem;
+  }
+}
