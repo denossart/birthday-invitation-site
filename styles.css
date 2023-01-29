@@ -99,11 +99,11 @@ span {
     font-size: 10rem;
   }
 
-  .coffee,
-  .date {
+  .coffee {
     font-size: 5rem;
   }
 
+  .date,
   .time {
     font-size: 2.5rem;
   }
