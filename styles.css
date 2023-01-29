@@ -19,10 +19,11 @@ html {
    DEBUGGING
    ==================================== */
 
+/*
 * {
   outline: 1px solid red;
 }
-
+*/
 
 /* ====================================
    FONTS
@@ -86,6 +87,10 @@ body {
 
 .coffee {
   margin-bottom: 10px;
+}
+
+.place {
+  margin-top: 10px;
 }
 
 
