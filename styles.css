@@ -1,115 +1,166 @@
-/* RESETS */
+
+/* ******** RESET ******** */
 
 * {
   margin: 0;
   padding: 0;
 }
 
+/* ******** COLOR SCHEME ******** */
+
 html {
-  font-size: 1vw;
-}
-
-
-/* DEBUGGING
-
-* {
-  outline: 1px solid red;
-
-}
- */
-
-
-/* LINKS */
-
-a {
-  text-decoration: none;
-  color: #d0ac66;
-}
-
-
-/* COLORS */
-
-body {
-  background-color: #3c474d;
-  color: #d0ac66;
-}
-
-
-/* FONTS */
-
-h1 {
-  font-size: 10rem;
-  text-transform: uppercase;
+  background: #3c474d;
 }
 
 h1,
-p {
+h2,
+p,
+a {
+  color: #d0ac66;
+  text-decoration: none;
+}
+
+
+/* ******** FONTS ******** */
+
+h1,
+p,
+a {
   font-family: Roboto;
   font-weight: 100;
 }
 
-h2 {
-  font-family: "Bad Script";
-  font-size: 8rem;
+h2,
+a {
+  font-family: "Dancing Script";
+  font-weight: 100;
 }
 
-.click-circle {
-  display: inline;
-  margin: 0 auto;
-  width: 8rem;
-  height: 8rem;
-  font-size: 3rem;
-  border: 1px solid #d0ac66;;
-  border-radius: 50%;
-}
-
-.click {
-  padding-top: 2rem;
-}
-
-.coffee {
-  font-size: 4rem;
-}
-
-.date,
-.time {
-  font-size: 3rem;
-}
-
-.down-arrow,
-.up-arrow {
-  font-size: 2rem;
+h1 {
+  text-transform: uppercase;
 }
 
 
-/* LAYOUT */
+/* ******** LAYOUT ******** */
 
 #first-container,
-#second-container,
-#third-container,
-#fourth-container,
-#fifth-container {
-  height: 100vh;
-  min-height: 250px;
-  margin: 0 auto;
-  text-align: center;
+#second-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .coffee {
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
-.time {
-  margin-bottom: 2rem;
+
+/* ******** RESPONSIVE DESIGN ******** */
+
+/* **** PHONE SMALL **** */
+
+@media (max-width: 413px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .date,
+  .time {
+    font-size: 15px;
+  }
+
+  h2 a {
+    font-size: 40px;
+  }
+
+  div {
+    height: 100vh;
+  }
 }
 
-.down-arrow {
-  margin-top: 2rem;
+/* **** PHONE MEDIUM **** */
+
+@media (min-width: 414px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .date,
+  .time {
+    font-size: 15px;
+  }
+
+  h2 a {
+    font-size: 45px;
+  }
+
+  div {
+    height: 100vh;
+  }
 }
 
-.up-arrow {
-  margin-bottom: 2rem;
+/* **** TABLET **** */
+
+@media (min-width: 654px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .date,
+  .time {
+    font-size: 25px;
+  }
+
+  h2 a {
+    font-size: 75px;
+  }
+
+  div {
+    height: 100vh;
+  }
 }
+
+@media (min-width: 916px) {
+  h1 {
+    font-size: 95px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .date,
+  .time {
+    font-size: 25px;
+  }
+
+  h2 a {
+    font-size: 95px;
+  }
+
+  div {
+    height: 100vh;
+  }
+}
+
+
+
+
+
+
+
+
