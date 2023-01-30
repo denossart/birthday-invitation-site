@@ -6,15 +6,18 @@
 }
 
 html {
-  font-size: 1vh;
+  font-size: 1vw;
 }
 
 
-/* DEBUGGING */
+/* DEBUGGING
 
 * {
   outline: 1px solid red;
+
 }
+ */
+
 
 /* LINKS */
 
@@ -35,7 +38,7 @@ body {
 /* FONTS */
 
 h1 {
-  font-size: 5rem;
+  font-size: 10rem;
   text-transform: uppercase;
 }
 
@@ -47,16 +50,30 @@ p {
 
 h2 {
   font-family: "Bad Script";
-  font-size: 5rem;
+  font-size: 8rem;
+}
+
+.click-circle {
+  display: inline;
+  margin: 0 auto;
+  width: 8rem;
+  height: 8rem;
+  font-size: 3rem;
+  border: 1px solid #d0ac66;;
+  border-radius: 50%;
+}
+
+.click {
+  padding-top: 2rem;
 }
 
 .coffee {
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .date,
 .time {
-  font-size: 1.75rem;
+  font-size: 3rem;
 }
 
 .down-arrow,
@@ -73,7 +90,6 @@ h2 {
 #fourth-container,
 #fifth-container {
   height: 100vh;
-  max-width: 960px;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -82,6 +98,10 @@ h2 {
 }
 
 .coffee {
+  margin-bottom: 2rem;
+}
+
+.time {
   margin-bottom: 2rem;
 }
 
