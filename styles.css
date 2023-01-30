@@ -90,6 +90,7 @@ h2 {
 #fourth-container,
 #fifth-container {
   height: 100vh;
+  min-height: 250px;
   margin: 0 auto;
   text-align: center;
   display: flex;
